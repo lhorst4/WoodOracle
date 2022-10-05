@@ -45,7 +45,7 @@ public class WoodItem {
      *
      * @return the baseDeliverytime
      */
-    public Double getDaseDeliveryTime() {
+    public Double getBaseDeliveryTime() {
         return baseDeliveryTime;
     }
 
