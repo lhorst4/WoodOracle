@@ -1,12 +1,18 @@
-a) 4 commits
+a) 5 commits, after I commit this, it will be 6
 b) 9-14-2022 6:07 PM
-c) git log
-d) 
-e) 
-f) 
-g) 
-h) 
-i) 
-j) 
-k) 
-l) 
+c) git log --after="2020-05-31" --before="2020-06-02"
+d) git log -- src
+e) git log --stat REMOVE.txt
+f) git log shows you the history of the repository meaning each date
+   that it was modified and how it was modified.
+   git status shows the state of the working directory, meaning: is
+   the branch merged or not, what is staged for committing, and your
+   untracked files.
+g) git shortlog shows all the commit messages that have been done by
+   each user in order
+h) git log -- main.java   if main.java is in a folder or something,
+   you need to add the path to it first.
+i) git log --stat -- main.java
+j) git log -S"transaction"
+k) git log --author="author's name"
+l) git log --author="Lauren" --before="2015-06-14" --after="2014-01-05"
