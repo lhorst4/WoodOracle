@@ -1,4 +1,4 @@
-a) 5 commits, after I commit this, it will be 6
+a) 12, 6 by me, 6 by you
 b) 9-14-2022 6:07 PM
 c) git log --after="2020-05-31" --before="2020-06-02"
 d) git log -- src
